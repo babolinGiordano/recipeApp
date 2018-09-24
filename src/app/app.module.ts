@@ -13,22 +13,22 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
 @NgModule({
-   declarations: [
-      AppComponent,
-      HeaderComponent,
-      RecipesComponent,
-      RecipeListComponent,
-      RecipeDetailComponent,
-      RecipeItemComponent,
-      ShoppingListComponent,
-      ShoppingEditComponent
-   ],
-   imports: [
-      BrowserModule,
-      FormsModule,
-      HttpModule
-   ],
-   providers: [],
-   bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecipeListComponent,
+    RecipeDetailComponent,
+    RecipeItemComponent,
+    ShoppingListComponent,
+    ShoppingEditComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
